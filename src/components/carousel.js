@@ -1,13 +1,20 @@
 import {Carousel}  from 'react-bootstrap'
 import '../css/car.css'
 import React from 'react'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {useNavigate} from 'react-router-dom'
 
-function carousel() {
+function Tarousel() {
+  const navigate=useNavigate()
+
+   function handleArrow(){
+     navigate('./misc')
+   }
     return (
-        <div className='cars'>
+        <div className='cars' >
             
 
-<Carousel fade>
+<Carousel fade pause='hover'>
   <Carousel.Item interval={2000}>
     <img
       className="d-block w-100"
@@ -15,7 +22,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon onClick={handleArrow}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -25,7 +32,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon onClick={handleArrow}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -35,7 +42,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon onClick={handleArrow}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -45,12 +52,12 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon onClick={handleArrow}/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 
-<Carousel fade>
+<Carousel fade pause='hover'>
   <Carousel.Item interval={2000}>
     <img
       className="d-block w-100"
@@ -58,7 +65,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon />
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -68,7 +75,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -78,7 +85,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -88,13 +95,13 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 
 
-<Carousel fade>
+<Carousel fade pause='hover'>
   <Carousel.Item interval={2000}>
     <img
       className="d-block w-100"
@@ -102,7 +109,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Gadgets </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -112,7 +119,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Gadgets </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -122,7 +129,7 @@ function carousel() {
     />
     <Carousel.Caption>
       <h2>Gadgets </h2>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <ArrowForwardIcon/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -130,4 +137,4 @@ function carousel() {
     )
 }
 
-export default carousel
+export default Tarousel

@@ -16,10 +16,18 @@
      display: inline-flex;
  }
   .foot{
-      height: 300px;
+      height: 470px;
       background-color: rgb(243, 225, 242);
+ background-color: rgb(243, 225, 242);
   }
-  
+  .legl{
+    padding-top: 3rem;
+  }
+  .legr{
+      padding-top: 3rem;
+      float: left;
+      width: 50%;
+  }
   .back{
       background-image: url('https://images.unsplash.com/photo-1603792907191-89e55f70099a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNhbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60');
       height: 60vh;  
@@ -31,4 +39,34 @@
     .ml-auto{
         height: 4vh;
         align-items: center;
+    }
+    .os{
+        width:120px;
+        height: 120px;
+        margin-right: 4rem;
+    }
+   .pie{
+    height: 380px;
+    width: 40%;  
+    margin-left: 3rem;
+    float: left;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1635405074683-96d6921a2a68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGVjb21tZXJjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+   }
+   .chick{
+       height: 380px;
+       width: 51%;
+       margin-right: 3rem;
+       background-color: rgb(238, 226, 226);
+       float: right;
+   }
+   .ts{
+    height:365px;
+    width:97.7%;
+    background-color:white;
+    margin: 0.5rem;
+   }
+    .ick{
+      display: flex;
+      padding: 2rem;
     }
