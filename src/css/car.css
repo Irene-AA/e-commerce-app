@@ -12,10 +12,14 @@
       max-height: 400px;
       /* max-width: 300px; */
   }
- .cars{
+ .cars-main{
      display: inline-flex;
- }
 
+ }
+.cars{
+    position: static;
+    height: max-content;
+}
   .foot{
       height: 470px;
       background-color: rgb(243, 225, 242);
@@ -78,7 +82,7 @@
     .tru{
         height: 570px;
         width: 350px;
-        background-color:  rgb(243, 225, 242);
+        background-color:  white;
         margin-left: .6rem;
         
     }

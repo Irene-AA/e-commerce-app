@@ -1,5 +1,18 @@
+@media screen  {
+    
+}
+
 .sss{
     overflow: auto;
     padding: 20px 40px 0px 20px;
     height: 70%;
+    /* display: flex; */
+    }
+
+.subroutes{
+        margin: 1rem;
+        width: 90%;
+        height: 28px;
+        background-color: rgb(243, 225, 242);
+        border-radius: 10px;
 }
