@@ -3,7 +3,6 @@ import React from 'react'
 
 function Icons() {
     return (
-        
         <div className='ick'>
         
             <div className='os'>
@@ -18,12 +17,12 @@ function Icons() {
 
             <div className='os'>
             <img style={{height:'100px',width:'105px',padding:'1rem 0rem 0rem 1rem',borderRadius:'10px'}} src='https://images.unsplash.com/photo-1603251578711-3290ca1a0187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhhbmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'/>
-            <h5>Men's Wear</h5> 
+            <h5>Men</h5> 
             </div>
 
             <div className='os'>
             <img style={{height:'100px',width:'105px',padding:'1rem 0rem 0rem 1rem',borderRadius:'10px'}} src='https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGhhbmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'/>
-            <h5>Women's Wear</h5> 
+            <h5>Women</h5> 
             </div>
 
             <div className='os'>

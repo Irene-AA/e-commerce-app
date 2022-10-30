@@ -15,6 +15,7 @@
  .cars{
      display: inline-flex;
  }
+
   .foot{
       height: 470px;
       background-color: rgb(243, 225, 242);
@@ -43,7 +44,7 @@
     .os{
         width:120px;
         height: 120px;
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
    .pie{
     height: 380px;
@@ -69,4 +70,24 @@
     .ick{
       display: flex;
       padding: 2rem;
+      background-color: rgb(238, 240, 240);
+      width:93%;
+      margin-left: 3rem;
+      height:170px;
+    }
+    .tru{
+        height: 570px;
+        width: 350px;
+        background-color:  rgb(243, 225, 242);
+        margin-left: .6rem;
+        
+    }
+    .sss{
+      float: left;
+      height: 3rem;
+      display: grid;
+    
+      grid-template-columns: auto auto auto auto;
+      grid-column-gap: 30px;
+      grid-row-gap:20px ;
     }

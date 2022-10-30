@@ -11,7 +11,7 @@ function Tarousel() {
      navigate('./misc')
    }
     return (
-        <div className='cars' >
+        <div className='cars'  >
             
 
 <Carousel fade pause='hover'>
@@ -22,7 +22,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <ArrowForwardIcon onClick={handleArrow}/>
+      <ArrowForwardIcon onClick={handleArrow} style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -32,7 +32,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <ArrowForwardIcon onClick={handleArrow}/>
+      <ArrowForwardIcon onClick={handleArrow} />
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -42,7 +42,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <ArrowForwardIcon onClick={handleArrow}/>
+      <ArrowForwardIcon onClick={handleArrow} style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -52,7 +52,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Womens Fashion </h2>
-      <ArrowForwardIcon onClick={handleArrow}/>
+      <ArrowForwardIcon onClick={handleArrow} style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -65,7 +65,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <ArrowForwardIcon />
+      <ArrowForwardIcon style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -75,7 +75,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <ArrowForwardIcon/>
+      <ArrowForwardIcon style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -85,7 +85,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <ArrowForwardIcon/>
+      <ArrowForwardIcon style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -95,7 +95,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Mens Fashion </h2>
-      <ArrowForwardIcon/>
+      <ArrowForwardIcon style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -119,7 +119,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Gadgets </h2>
-      <ArrowForwardIcon/>
+      <ArrowForwardIcon />
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -129,7 +129,7 @@ function Tarousel() {
     />
     <Carousel.Caption>
       <h2>Gadgets </h2>
-      <ArrowForwardIcon/>
+      <ArrowForwardIcon style={{color:'black'}}/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
